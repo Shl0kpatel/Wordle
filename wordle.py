@@ -13,7 +13,6 @@ word_list = [word.strip() for word in word_list]
 
 # Select a random word
 randw = random.choice(word_list)
-print(randw)
 
 # Main game loop
 while(True):
